@@ -1,5 +1,7 @@
 # Psylotron---Mellotron-clone
-Arduino and wav trigger based Mellotron clone
+Arduino and wav trigger based Mellotron clone based on the Psylotron by Far Beyond Perception Instruments
+
+http://www.djsoulmachine.com/farbeyondperception/index.html
 
 A clone of the classic Mellotron keyboard
 
