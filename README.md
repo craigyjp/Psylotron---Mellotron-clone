@@ -37,3 +37,11 @@ Optional for keyboard version.
 3 push buttons with LED surrounds.
 
 Suitable 4 octave MIDI DIN keyboard and chassis and associated 3D printed parts for intergration
+
+SAMPLE LAYOUT
+
+Mellotron samples must be around in groups starting at the lowest note 0043_sample1_name.wav to 0077_sample1_name.wav, 0143_sample2_name.wav to 0177_sample2_name.wav etc for the bank A and then 2043_sample1_name.wav to 2077_sample1_name.wav, 2143_sample2_name.wav to 2177_sample2_name.wav etc for the Bank B sounds. Bank A and Bank B sounds are seperated by 2000 sample slots.
+
+Each MIDI note 43 to 77 is mapped to a sample slot on the wav trigger and adding 100 to the slot changes the sample played back, this changing the instrument. The Wav Trigger has 4096 slots available. This effectively can give you 20 unique onboard sounds to mix and split across the keyboard. Its up to you to put the samples in the slots you want them and change the menus to suit.
+
+Samples must be stereo, 16 bit, 44.1 khz and contain no metadata.
