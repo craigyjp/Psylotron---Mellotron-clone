@@ -273,7 +273,7 @@ void line1() {
   switch (channelA.bank)
   {
     case 0:
-      lcd.print(F("A00: Strings    "));
+      lcd.print(F("A00: Violins    "));
       break;
 
     case 100:
@@ -301,55 +301,55 @@ void line1() {
       break;
 
     case 700:
-      lcd.print(F("A07: Birotron   "));
+      lcd.print(F("A07: Cello      "));
       break;
 
     case 800:
-      lcd.print(F("A08: Fairlight  "));
+      lcd.print(F("A08: M300 Brass "));
       break;
 
     case 900:
-      lcd.print(F("A09: Bass       "));
+      lcd.print(F("A09: Mixed Brass"));
       break;
 
     case 1000:
-      lcd.print(F("A10: Strings 2  "));
+      lcd.print(F("A10: Teno & Alto"));
       break;
 
     case 1100:
-      lcd.print(F("A11: Flutes     "));
+      lcd.print(F("A11: Trom & Trum"));
       break;
 
     case 1200:
-      lcd.print(F("A12: Choir      "));
+      lcd.print(F("A12: Orchestra  "));
       break;
 
     case 1300:
-      lcd.print(F("A13: Strings    "));
+      lcd.print(F("A13: Unused     "));
       break;
 
     case 1400:
-      lcd.print(F("A14: Vibes      "));
+      lcd.print(F("A14: Unused     "));
       break;
 
     case 1500:
-      lcd.print(F("A15: Church Orga"));
+      lcd.print(F("A15: Unused     "));
       break;
 
     case 1600:
-      lcd.print(F("A16: Bassoon    "));
+      lcd.print(F("A16: Unused     "));
       break;
 
     case 1700:
-      lcd.print(F("A17: Birotron   "));
+      lcd.print(F("A17: Unused     "));
       break;
 
     case 1800:
-      lcd.print(F("A18: Fairlight  "));
+      lcd.print(F("A18: Unused     "));
       break;
 
     case 1900:
-      lcd.print(F("A19: Bass       "));
+      lcd.print(F("A19: Unused     "));
       break;
 
   }
@@ -361,7 +361,7 @@ void line2() {
   switch (channelB.bank)
   {
     case 0:
-      lcd.print(F("B00: Strings    "));
+      lcd.print(F("B00: Violins    "));
       break;
 
     case 100:
@@ -389,55 +389,55 @@ void line2() {
       break;
 
     case 700:
-      lcd.print(F("B07: Birotron   "));
+      lcd.print(F("B07: Cello      "));
       break;
 
     case 800:
-      lcd.print(F("B08: Fairlight  "));
+      lcd.print(F("B08: M300 Brass "));
       break;
 
     case 900:
-      lcd.print(F("0B9: Bass       "));
+      lcd.print(F("B09: Mixed Brass"));
       break;
 
     case 1000:
-      lcd.print(F("B10: Strings    "));
+      lcd.print(F("B10: Teno & Alto"));
       break;
 
     case 1100:
-      lcd.print(F("B11: Flutes     "));
+      lcd.print(F("B11: Trom & Trum"));
       break;
 
     case 1200:
-      lcd.print(F("B12: Choir      "));
+      lcd.print(F("B12: Orchestra  "));
       break;
 
     case 1300:
-      lcd.print(F("B13: Strings    "));
+      lcd.print(F("B13: Unused     "));
       break;
 
     case 1400:
-      lcd.print(F("B14: Vibes      "));
+      lcd.print(F("B14: Unused     "));
       break;
 
     case 1500:
-      lcd.print(F("B15: Church Orga"));
+      lcd.print(F("B15: Unused     "));
       break;
 
     case 1600:
-      lcd.print(F("B16: Bassoon    "));
+      lcd.print(F("B16: Unused     "));
       break;
 
     case 1700:
-      lcd.print(F("B17: Birotron   "));
+      lcd.print(F("B17: Unused     "));
       break;
 
     case 1800:
-      lcd.print(F("B18: Fairlight  "));
+      lcd.print(F("B18: Unused     "));
       break;
 
     case 1900:
-      lcd.print(F("B19: Bass       "));
+      lcd.print(F("B19: Unused     "));
       break;
   }
 
