@@ -13,7 +13,7 @@
 #include <LiquidCrystal_I2C.h>
 
 // Set the LCD address to 0x27 for a 16 chars and 2 line display
-LiquidCrystal_I2C lcd(0x27, 16, 2);
+LiquidCrystal_I2C lcd(0x27,16,2);
 
 //AltSoftSerial altSerial;
 //MIDI_CREATE_INSTANCE(AltSoftSerial, altSerial, MIDI);
@@ -273,75 +273,75 @@ void line1() {
   switch (channelA.bank)
   {
     case 0:
-      lcd.print(F("A00: Violins    "));
+      lcd.print(F("A: Mk2 Flute    "));
       break;
 
     case 100:
-      lcd.print(F("A01: Flutes     "));
+      lcd.print(F("A: Mk2 Ch. Organ"));
       break;
 
     case 200:
-      lcd.print(F("A02: Choir      "));
+      lcd.print(F("A: Mk2 Cello    "));
       break;
 
     case 300:
-      lcd.print(F("A03: Strings    "));
+      lcd.print(F("A: Mk2 3 Violins"));
       break;
 
     case 400:
-      lcd.print(F("A04: Vibes      "));
+      lcd.print(F("A: Mk2 Watcher  "));
       break;
 
     case 500:
-      lcd.print(F("A05: Organ      "));
+      lcd.print(F("A: Mk2 Brass    "));
       break;
 
     case 600:
-      lcd.print(F("A06: Bassoon    "));
+      lcd.print(F("A: Mk2 Trumpet  "));
       break;
 
     case 700:
-      lcd.print(F("A07: Cello      "));
+      lcd.print(F("A: Mk2 Sax Duet "));
       break;
 
     case 800:
-      lcd.print(F("A08: M300 Brass "));
+      lcd.print(F("A: M300 Violins "));
       break;
 
     case 900:
-      lcd.print(F("A09: Mixed Brass"));
+      lcd.print(F("A: M400 Strings "));
       break;
 
     case 1000:
-      lcd.print(F("A10: Teno & Alto"));
+      lcd.print(F("A: M400 8 Choir "));
       break;
 
     case 1100:
-      lcd.print(F("A11: Trom & Trum"));
+      lcd.print(F("A: M400 Pipe Or."));
       break;
 
     case 1200:
-      lcd.print(F("A12: Orchestra  "));
+      lcd.print(F("A: M400 Vibes   "));
       break;
 
     case 1300:
-      lcd.print(F("A13: Unused     "));
+      lcd.print(F("A: M400 Brass   "));
       break;
 
     case 1400:
-      lcd.print(F("A14: Unused     "));
+      lcd.print(F("A: M400 Trombone"));
       break;
 
     case 1500:
-      lcd.print(F("A15: Unused     "));
+      lcd.print(F("A: M400  Guitar "));
       break;
 
     case 1600:
-      lcd.print(F("A16: Unused     "));
+      lcd.print(F("A: T262 Perc Or."));
       break;
 
     case 1700:
-      lcd.print(F("A17: Unused     "));
+      lcd.print(F("A: T262 Verb Ens"));
       break;
 
     case 1800:
@@ -361,75 +361,75 @@ void line2() {
   switch (channelB.bank)
   {
     case 0:
-      lcd.print(F("B00: Violins    "));
+      lcd.print(F("B: Mk2 Flute    "));
       break;
 
     case 100:
-      lcd.print(F("B01: Flutes     "));
+      lcd.print(F("B: Mk2 Ch. Organ"));
       break;
 
     case 200:
-      lcd.print(F("B02: Choir      "));
+      lcd.print(F("B: Mk2 Cello    "));
       break;
 
     case 300:
-      lcd.print(F("B03: Strings    "));
+      lcd.print(F("B: Mk2 3 Violins"));
       break;
 
     case 400:
-      lcd.print(F("B04: Vibes      "));
+      lcd.print(F("B: Mk2 Woodwinds"));
       break;
 
     case 500:
-      lcd.print(F("B05: Organ      "));
+      lcd.print(F("B: Mk2 Brass    "));
       break;
 
     case 600:
-      lcd.print(F("B06: Bassoon    "));
+      lcd.print(F("B: Mk2 Trumpet  "));
       break;
 
     case 700:
-      lcd.print(F("B07: Cello      "));
+      lcd.print(F("B: Mk2 Accordian"));
       break;
 
     case 800:
-      lcd.print(F("B08: M300 Brass "));
+      lcd.print(F("B: M300 Violin  "));
       break;
 
     case 900:
-      lcd.print(F("B09: Mixed Brass"));
+      lcd.print(F("B: M300 Brass   "));
       break;
 
     case 1000:
-      lcd.print(F("B10: Teno & Alto"));
+      lcd.print(F("B: M400 8 Choir "));
       break;
 
     case 1100:
-      lcd.print(F("B11: Trom & Trum"));
+      lcd.print(F("B: M400 16 Choir"));
       break;
 
     case 1200:
-      lcd.print(F("B12: Orchestra  "));
+      lcd.print(F("B: M400 Vibes   "));
       break;
 
     case 1300:
-      lcd.print(F("B13: Unused     "));
+      lcd.print(F("B: M400 Brass   "));
       break;
 
     case 1400:
-      lcd.print(F("B14: Unused     "));
+      lcd.print(F("B: M400 Sax     "));
       break;
 
     case 1500:
-      lcd.print(F("B15: Unused     "));
+      lcd.print(F("B: M400 Piano   "));
       break;
 
     case 1600:
-      lcd.print(F("B16: Unused     "));
+      lcd.print(F("B: T262 Full    "));
       break;
 
     case 1700:
-      lcd.print(F("B17: Unused     "));
+      lcd.print(F("B: T262 Clarinet"));
       break;
 
     case 1800:
@@ -470,7 +470,7 @@ void setup()
 
   // Wav Trigger Init
   wTrig.start();
-  //wTrig.setAmpPwr(0);
+  wTrig.setAmpPwr(0);
   wTrig.masterGain(cst.gainMax);
 
 
@@ -490,37 +490,41 @@ void setup()
   lcd.init();
 
   // Turn on the blacklight and print a message.
-  //lcd.backlight();
+  lcd.backlight();
 
   lcd.setCursor(0, 0);
-  lcd.print(F("   FAR BEYOND   "));
+  lcd.print(F(" WELCOME TO AN  "));
 
   lcd.setCursor(0, 1);
-  lcd.print(F("   PERCEPTION   "));
-  delay(1000);
+  lcd.print(F(" ALTERED FUTURE "));
+  delay(1400);
 
   lcd.setCursor(0, 1);
   lcd.print(F("                "));
 
   lcd.setCursor(0, 0);
-  lcd.print(F("   PSYL()TRON"));
-  delay(250);
+  lcd.print(F("    NEONTRON  "));
+  delay(750);
 
   lcd.setCursor(0, 0);
-  lcd.print(F("   PSY(  )RON"));
-  delay(250);
+  lcd.print(F("   NEON()TRON "));
+  delay(300);
 
   lcd.setCursor(0, 0);
-  lcd.print(F("   PS(    )ON"));
-  delay(250);
+  lcd.print(F("   NEO(  )RON "));
+  delay(300);
 
   lcd.setCursor(0, 0);
-  lcd.print(F("   P(      )N"));
-  delay(250);
+  lcd.print(F("   NE(    )ON "));
+  delay(300);
 
   lcd.setCursor(0, 0);
-  lcd.print(F("   (        )"));
-  delay(250);
+  lcd.print(F("   N(      )N "));
+  delay(300);
+
+  lcd.setCursor(0, 0);
+  lcd.print(F("   (        ) "));
+  delay(400);
 
   line1();
   line2();
